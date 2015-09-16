@@ -20,8 +20,8 @@ Change the following options:
 hideui singleuser,arrows,hints,badges
 icons_dir dm-refind/icons
 banner dm-refind/background.png
-selection_big dm-refind/selection_big.bmp
-selection_small dm-refind/selection_small.bmp
+selection_big dm-refind/selection_big.png
+selection_small dm-refind/selection_small.png
 
 ```
 
