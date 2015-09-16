@@ -5,7 +5,8 @@ rEFInd is a really neat bootmanager, here's a neat dark theme for it.
 Editable bg found in /originals.
 
 Screendump
------
+----
+![dream-machine-theme](https://raw.githubusercontent.com/Lindstream/dm-refind-theme/master/screenshot.jpg)
 
 Installation
 ----
@@ -25,7 +26,7 @@ selection_small dm-refind/selection_small.bmp
 ```
 
 Attribution
-_____
+----
 
 Font: Coding Font Tobi
 
