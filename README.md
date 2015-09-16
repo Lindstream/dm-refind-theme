@@ -17,7 +17,7 @@ $root: vim /boot/EFI/refind.conf
 
 Change the following options:
 ```
-hideui singleuser,arrows,hints,badges
+hideui singleuser,arrows,hints,badges,label
 icons_dir dm-refind/icons
 banner dm-refind/background.png
 selection_big dm-refind/selection_big.png
