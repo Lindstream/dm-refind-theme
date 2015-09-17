@@ -1,6 +1,6 @@
 Dream Machine: rEFInd theme
 ==============================
-This is a neat dark theme for rEFInd[refurl]
+This is a neat dark theme for [rEFInd][refurl]
 
 Nametagged background located in /originals, make your changes and save as background.png
 
