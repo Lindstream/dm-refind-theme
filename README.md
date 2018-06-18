@@ -17,19 +17,17 @@ Screendump
 Installation
 ----
 ```
-$root: cp -r ./dm-refind-theme /boot/EFI/refind-theme
-$root: vim /boot/EFI/refind.conf
+# Create the theme folder in /boot/EFI/refind if it doesn't exist. Be sure that the folder refind is in /boot/EFI; if not, find it and replace the path with yours in the following commands.
+$root: mkdir /boot/EFI/refind/themes
+#Copy the folder
+$root: cp -r ./dm-refind-theme /boot/EFI/refind/themes/
 ``` 
 
-Change the following options:
+Add this line at the end of /boot/EFI/refind/refind.conf:
 ```
-hideui singleuser,arrows,hints,badges,label
-icons_dir dm-refind-theme/icons
-banner dm-refind-theme/background.png
-selection_big dm-refind-theme/selection_big.png
-selection_small dm-refind-theme/selection_small.png
-
+include themes/dm-refind-theme/theme.conf
 ```
+and comment other `include <theme.conf>` lines with a `#`.
 
 Attributions
 ----
